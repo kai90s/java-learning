@@ -7,7 +7,7 @@ public class Ascending_Order{
 		
 		 int n, temp;
 	        Scanner s = new Scanner(System.in);
-	        System.out.print("Enter no. of elements you want in array:");
+	        System.out.print("Enter num of elements you want in array:");
 	        n = s.nextInt();
 	        int a[] = new int[n];
 	        System.out.println("Enter all the elements:");
@@ -27,7 +27,7 @@ public class Ascending_Order{
 	                }
 	            }
 	        }
-	        System.out.print("Ascending Order:");
+	        System.out.print("Ascending Order : ");
 	        for (int i = 0; i < n - 1; i++) 
 	        {
 	            System.out.print(a[i] + ",");
@@ -36,11 +36,3 @@ public class Ascending_Order{
 		
 	}
 }
-	
-	
-
-		
-
-	
-
-
